@@ -14,6 +14,18 @@
     			height: 200px;
   			  margin-bottom: 30px;
 		}
+
+		.responsiveCal {
+ 
+		position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+ 
+		}
+ 
+		.responsiveCal iframe {
+ 
+		position: absolute; top:0; left: 0; width: 100%; height: 100%;
+ 
+		}
        	</style>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -123,7 +135,11 @@ information retrieval, machine learning, text analytics and social network analy
 
 	<section>
 	<h1>Gokul's Calendar</h1>
-	<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=MONTH&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=6uratddusog2prq3ad4ehj3m4k%40group.calendar.google.com&amp;color=%23333333&amp;ctz=Asia%2FCalcutta" style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="yes"></iframe>
+	<div class="responsiveCal">
+	
+	<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=MONTH&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=6uratddusog2prq3ad4ehj3m4k%40group.calendar.google.com&amp;color=%23333333&amp;ctz=Asia%2FCalcutta" style="border:solid 1px #777" width=600 height=400 frameborder="0" scrolling="yes"></iframe>
+	
+	</div>
 	</section>
 
       <footer>
