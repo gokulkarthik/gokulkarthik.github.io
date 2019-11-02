@@ -251,7 +251,7 @@ figure {
         min-height: 400px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
-      bottom: 20px;
+      bottom: 0px;
       z-index: 1000;
       left: 20px;
       float: left;
